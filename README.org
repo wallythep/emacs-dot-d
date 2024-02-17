@@ -1,1 +1,39 @@
 * emacs-dot-d
+
+This is my attempt at building our my own emacs and org
+initialization set up. I hope to build a nice custom interface
+and to learn a lot more about emacs and org. The goal is
+full-featured and literate prgramming environment.
+
+* Prelude
+
+I was using the Prelude system for quite a while,
+but I found that org mode had become unusable as
+emacs versions increased. Several key binding
+problems (like Shift-up not working in timestamps)
+that made it too hard to use. So, this will be
+a simplified set up, but similar to Prelude, which
+I liked.
+
+* Usage
+
+At some point I hope to make this a literate set up
+environment, but for now you'll need to copy the lisp
+files into the .emacs.d folder.
+
+*  Philosophy
+
+The basic idea is to have a very simple init script that
+calls any number of custom scripts to set up packages,
+configurations, and so on. This is similar to many other
+configuration set ups, including Prelude.
+
+* Package
+
+A list of packages that I install.
+
+  - zenburn-theme
+  - beacon
+  - which-key
+  - ivy
+    including swiper and counsel
