@@ -6,7 +6,7 @@
  '(blink-cursor-mode nil)
  '(column-number-mode t)
  '(org-agenda-files
-   '("/Users/walterplourde/org/projects/adsp.org" "/Users/walterplourde/org/projects/acct273.org" "/Users/walterplourde/org/projects/system.org" "~/org/projects/cloud.org"))
+   '("/Users/walterplourde/org/projects/adsp.org" "/Users/walterplourde/org/projects/acct273.org" "/Users/walterplourde/org/projects/system.org" "~/org/projects/cloud.org" "~/org/todo.org" "~/org/projects/ds_template.org" "~/org/projects/acct231.org"))
  '(org-capture-templates
    '(("t" "todo" entry
       (file "~/org/todo.org")
@@ -26,7 +26,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Cascadia Mono" :foundry "outline" :slant normal :weight normal :height 120 :width normal)))))
+ '(default ((t (:family "Cascadia Mono" :foundry "outline" :slant normal :weight normal :height 160 :width normal)))))
 
 
 ;; Set initial size
@@ -45,5 +45,5 @@
 (setq python-shell-interpreter "python3")
 
 ;; Setup org
-(load "~/.emacs.d/personal/org-mode.el")
+;; (load "~/.emacs.d/personal/org-mode.el")
 

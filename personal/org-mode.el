@@ -30,9 +30,9 @@
 
 ;; Capture templates for: TODO tasks, Notes, and Journal entries
 (setq org-capture-templates
-      (quote (("t" "todo" entry (file "~/org/todo.org")
+      (quote (("t" "Todo" entry (file "~/org/todo.org")
                "* TODO %?\n%U\n" )
-              ("n" "note" entry (file "~/org/todo.org")
+              ("n" "Note" entry (file "~/org/todo.org")
                "* %? :NOTE:\n%U\n" )
               ("j" "Journal" entry (file+datetree "~/org/diary.org")
                "* %?\n%U\n" )

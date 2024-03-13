@@ -37,3 +37,7 @@ A list of packages that I install.
   - which-key
   - ivy
     including swiper and counsel
+  - company
+  - python
+    including anaconda-mode and company-anaconda
+  - exec-path-from-shell
